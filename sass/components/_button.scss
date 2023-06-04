@@ -8,6 +8,7 @@ button {
     border-radius: 28px;
     color: $primary-white;
     background-color: $btn-bg-color;
+    transition: 0.3s;
 }
 button:hover {
     background-color: $btn-hover-bg-color;

@@ -557,6 +557,7 @@ button {
   border-radius: 28px;
   color: #fff;
   background-color: #2BD0D0;
+  transition: 0.3s;
 }
 
 button:hover {
