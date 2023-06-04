@@ -3,3 +3,23 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.section4__box {
+    background-image: url(../images/svg/section4-box-bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (max-width:765px) {
+    .section4__box {
+        background-image: none;
+        background-image: url(../images/svg/section4-box-bg-column-img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+.end-section {
+    background-image: url(../images/svg/end-section-bg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
